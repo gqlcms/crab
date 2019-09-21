@@ -1,4 +1,6 @@
 from WMCore.Configuration import Configuration
+from CRABClient.UserUtilities import config, getUsernameFromSiteDB
+
 config = Configuration()
 config.section_("General")
 config.General.requestName   = 'JMEstudy'
